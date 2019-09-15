@@ -12,7 +12,7 @@ def all
 end 
 
 def print_all
- puts all.each
+ puts @@all.each
 end 
 
 end 
