@@ -12,7 +12,9 @@ def all
 end 
 
 def print_all
- puts @@all.each
+  @@all.each do |dog|
+    puts dog.name
+  end 
 end 
 
 end 
